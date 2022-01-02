@@ -6,4 +6,8 @@
   --secondary-titles-color: #385170;
   --text-color: #444444;
   --text-btn-color: #25282b;
+  --primary-font: "Playfair Display", serif;
+  --secondary-font: "Nunito", sans-serif;
+  --btn-font: "Roboto", sans-serif;
 }
+
