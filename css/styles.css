@@ -12,7 +12,8 @@
   --btn-font: "Roboto", sans-serif;
 }
 
-.index {
+.index,
+.projects {
   background-color: var(--light-color);
 }
 
@@ -24,7 +25,8 @@
   color: var(--accent-color) !important;
 }
 
-.index a {
+.index a,
+.projects a {
   text-decoration: none;
   font-family: var(--secondary-font);
   color: var(--text-color);
@@ -33,7 +35,8 @@
   line-height: 200%;
 }
 
-.index a:hover {
+.index a:hover,
+.projects a:hover {
   color: var(--accent-color);
 }
 
