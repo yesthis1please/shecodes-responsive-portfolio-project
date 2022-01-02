@@ -11,3 +11,39 @@
   --btn-font: "Roboto", sans-serif;
 }
 
+.index {
+  background-color: var(--light-color);
+}
+
+.navbar-brand {
+  font-family: var(--secondary-font) !important;
+  font-size: 24px !important;
+}
+.navbar-brand:hover {
+  color: var(--accent-color) !important;
+}
+
+.index a {
+  text-decoration: none;
+  font-family: var(--secondary-font);
+  color: var(--text-color);
+  font-size: 18px;
+  font-weight: lighter;
+  line-height: 200%;
+}
+
+.index a:hover {
+  color: var(--accent-color);
+}
+
+.footer {
+  text-align: center;
+  font-family: var(--secondary-font);
+  font-weight: lighter;
+  color: var(--text-color);
+}
+
+i {
+font-size: 30px;
+}
+

@@ -9,7 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600&family=Playfair+Display:wght@500&family=Roboto:wght@300;400&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&family=Playfair+Display:wght@500&family=Roboto:wght@300;400&display=swap"
       rel="stylesheet"
     />
     <link
@@ -28,11 +28,9 @@
       crossorigin="anonymous"
     ></script>
   </head>
-  <body>
-    <div class="container">
-      <div class="navigation">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-          <div class="container-fluid">
+  <body class="index">
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <div class="container">
             <a class="navbar-brand" href="/index.html">Annamaria Bara</a>
             <button
               class="navbar-toggler"
@@ -51,21 +49,22 @@
             >
               <div class="navbar-nav">
                 <a
-                  class="nav-link active"
+                  class="nav-link px-4"
                   aria-current="page"
                   href="/projects.html"
                   >Projects</a
                 >
-                <a class="nav-link" href="/about.html">About</a>
-                <a class="nav-link" href="/contact.html">Contact</a>
-                <a class="nav-link" href="/index-ja.html">日本語</a>
+                <a class="nav-link px-4" href="/about.html">About</a>
+                <a class="nav-link px-4" href="/contact.html">Contact</a>
+                <a class="nav-link ps-4" href="/index-ja.html">日本語</a>
               </div>
             </div>
           </div>
         </nav>
-      </div>
 
-      <div class="homepage-hero">
+      <div class="container homepage-hero">
+        <div class="row my-5 py-5">
+        <div class="col-md-10 col-lg-8 col-xl-6">
         <p>Hello, I am</p>
         <h1>Annamaria Bara</h1>
         <h2>upcoming front-end developer based in Tokyo</h2>
@@ -73,7 +72,7 @@
           href="/works.html"
           class="projects-btn"
           title="Take a look at Annamaria's projects"
-          >View my prjects</a
+          >View my projects</a
         >
         <a
           href="/index.html#contact"
@@ -81,6 +80,8 @@
           title="Contact Annamaria"
           >Contact me
         </a>
+        </div>
+        </div>
       </div>
       <div class="footer">
         <a
@@ -91,7 +92,7 @@
         ></a>
         <a
           href="https://github.com/yesthis1please"
-          class="footer-github"
+          class="footer-github px-4"
           title="View Annamaria's profile on Github"
           ><i class="fab fa-github"></i
         ></a>
@@ -102,7 +103,7 @@
           ><i class="far fa-paper-plane"></i
         ></a>
         <hr />
-        <p>2022 Annamaria Bara | open-source hosted on Netlify</p>
+        <p>2022 Annamaria Bara | open-source code hosted on Netlify</p>
       </div>
     </div>
   </body>
