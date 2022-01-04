@@ -10,6 +10,7 @@
   --primary-font: "Playfair Display", serif;
   --secondary-font: "Nunito", sans-serif;
   --btn-font: "Roboto", sans-serif;
+  --box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.2);
 }
 
 .index,
@@ -69,6 +70,7 @@
   padding: 6px 16px;
   font-size: 18px;
   border-radius: 10px;
+  box-shadow: var(--box-shadow);
 }
 
 .default-btn:hover {
@@ -77,12 +79,13 @@
 }
 
 .secondary-btn {
-    color: var(--text-btn-color) !important;
+  color: var(--text-btn-color) !important;
   display: inline-block;
   padding: 5px 15px;
   font-size: 18px;
   border: 1px solid var(--text-color);
   border-radius: 10px;
+  box-shadow: var(--box-shadow);
 }
 
 .secondary-btn:hover {
@@ -106,6 +109,13 @@
   height: 4px;
   background-color: var(--accent-color);
   border-radius: 10px;
+}
+
+.project-row {
+  padding: 50px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: var(--box-shadow);
 }
 
 .project-title {
@@ -158,5 +168,10 @@
   .homepage-hero p,
   .homepage-hero h1 {
     font-size: 40px;
+  }
+
+  .project-row {
+    margin: 5px;
+    padding: 30px 10px;
   }
 }
