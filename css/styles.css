@@ -47,15 +47,19 @@
   color: var(--accent-color);
 }
 
-.homepage-hero p,
-.homepage-hero h1 {
+.hero {
+    margin: 50px auto 100px;
+}
+
+.hero p,
+.hero h1 {
   color: var(--titles-color);
   font-family: var(--primary-font);
-  font-size: 70px;
+  font-size: 64px;
   line-height: 1;
 }
 
-.homepage-hero h2,
+.hero h2, .hero h3,
 .portfolio-subtitle {
   color: var(--secondary-titles-color);
   font-family: var(--secondary-font);
@@ -165,8 +169,8 @@
 }
 
 @media (max-width: 538px) {
-  .homepage-hero p,
-  .homepage-hero h1 {
+  .hero p,
+  .hero h1 {
     font-size: 40px;
   }
 
