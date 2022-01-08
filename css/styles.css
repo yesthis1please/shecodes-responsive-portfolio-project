@@ -146,9 +146,9 @@
   line-height: 1.5;
 }
 
-.contact-email{
-      font-size: 32px !important;
-  }
+.contact-email {
+  font-size: 32px !important;
+}
 
 .footer {
   margin: 115px auto;
@@ -192,7 +192,11 @@
     padding: 30px 10px;
   }
 
-  .contact-email{
-      font-size: 24px !important;
+  .contact-email {
+    font-size: 24px !important;
+  }
+
+  h6 {
+    display: none;
   }
 }
