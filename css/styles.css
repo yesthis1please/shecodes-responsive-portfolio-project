@@ -48,10 +48,10 @@
 }
 
 .hero {
-    margin: 50px auto 100px;
+  margin: 50px auto 100px;
 }
 
-.hero p,
+.hero h4,
 .hero h1 {
   color: var(--titles-color);
   font-family: var(--primary-font);
@@ -59,7 +59,9 @@
   line-height: 1;
 }
 
-.hero h2, .hero h3,
+.hero h2,
+.hero h3,
+.hero p,
 .portfolio-subtitle {
   color: var(--secondary-titles-color);
   font-family: var(--secondary-font);
@@ -144,6 +146,10 @@
   line-height: 1.5;
 }
 
+.contact-email{
+      font-size: 32px !important;
+  }
+
 .footer {
   margin: 115px auto;
   text-align: center;
@@ -174,8 +180,19 @@
     font-size: 40px;
   }
 
+  .hero h2,
+  .hero h3,
+  .hero p,
+  .portfolio-subtitle {
+    font-size: 18px;
+  }
+
   .project-row {
     margin: 5px;
     padding: 30px 10px;
+  }
+
+  .contact-email{
+      font-size: 24px;
   }
 }
