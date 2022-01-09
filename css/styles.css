@@ -77,6 +77,7 @@
   font-size: 18px;
   border-radius: 10px;
   box-shadow: var(--box-shadow);
+  transition: 150ms ease-in-out;
 }
 
 .default-btn:hover {
@@ -92,6 +93,7 @@
   border: 1px solid var(--text-color);
   border-radius: 10px;
   box-shadow: var(--box-shadow);
+  transition: 150ms ease-in-out;
 }
 
 .secondary-btn:hover {
@@ -146,8 +148,8 @@
   line-height: 1.5;
 }
 
-.skills-container h6{
-    font-size: 12px;
+.skills-container h6 {
+  font-size: 12px;
 }
 
 .contact-email {
