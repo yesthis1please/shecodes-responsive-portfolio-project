@@ -167,7 +167,7 @@
 }
 
 .footer {
-  margin: 115px auto;
+  margin: 250px auto 30px;
   text-align: center;
   font-family: var(--secondary-font);
   font-weight: lighter;
@@ -184,10 +184,6 @@
   border-radius: 10px;
 }
 
-.temporary-footer{
-  margin-top: 250px;
-}
-
 @media (max-width: 1200px) {
   .about-img {
     margin-top: 70px !important;
@@ -195,7 +191,8 @@
 }
 
 @media (max-width: 992px) {
-  .index, .index-ja {
+  .index,
+  .index-ja {
     background-image: none;
   }
   .project-description {
