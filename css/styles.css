@@ -146,6 +146,10 @@
   line-height: 1.5;
 }
 
+.skills-container h6{
+    font-size: 12px;
+}
+
 .contact-email {
   font-size: 32px !important;
 }
@@ -172,6 +176,9 @@
   .project-description {
     text-align: center;
   }
+  h6 {
+    display: none;
+  }
 }
 
 @media (max-width: 538px) {
@@ -194,9 +201,5 @@
 
   .contact-email {
     font-size: 24px !important;
-  }
-
-  h6 {
-    display: none;
   }
 }
