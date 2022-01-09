@@ -1,6 +1,6 @@
 :root {
   --accent-color: #a01b1b;
-  --accent-color-light: rgba(160, 27, 27, 0.7);
+  --accent-color-light: #bc3b3b;
   --accent-color-dark: #871818;
   --light-color: #ededed;
   --titles-color: #3e0808;
@@ -17,7 +17,13 @@
 .projects,
 .about,
 .contact {
+  background-position: top right;
+  background-repeat: no-repeat;
   background-color: var(--light-color);
+}
+
+.index {
+  background-image: url(/images/background-home.png);
 }
 
 .navbar-brand {
@@ -87,6 +93,7 @@
 
 .secondary-btn {
   color: var(--text-btn-color) !important;
+  background-color: var(--light-color);
   display: inline-block;
   padding: 5px 15px;
   font-size: 18px;
@@ -174,11 +181,24 @@
   border-radius: 10px;
 }
 
+@media (max-width: 1200px){
+  .about-img{
+    margin-top: 70px !important;
+  }
+}
+
 @media (max-width: 992px) {
+  .index {
+    background-image: none;
+  }
   .project-description {
     text-align: center;
   }
   h6 {
+    display: none;
+  }
+
+  .about-img {
     display: none;
   }
 }
