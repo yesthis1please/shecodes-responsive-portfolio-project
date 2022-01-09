@@ -56,9 +56,7 @@
   color: var(--accent-color);
 }
 
-.hero {
-  margin: 50px auto 100px;
-}
+
 
 .hero h4,
 .hero h1 {
@@ -76,6 +74,7 @@
   font-family: var(--secondary-font);
   font-weight: lighter;
   font-size: 25px;
+  line-height: 1.2
 }
 
 .default-btn {
@@ -167,7 +166,7 @@
 }
 
 .footer {
-  margin: 250px auto 30px;
+  margin: 150px auto 30px;
   text-align: center;
   font-family: var(--secondary-font);
   font-weight: lighter;
@@ -209,7 +208,7 @@
 
 @media (max-width: 538px) {
   .hero h4,
-  .hero h1 {
+  .hero h1, .subtitle {
     font-size: 40px;
   }
 
@@ -218,7 +217,13 @@
   .hero p,
   .portfolio-subtitle {
     font-size: 18px;
+
   }
+
+  .subtitle {
+    margin: 70px auto;
+  }
+
 
   .project-row {
     margin: 5px;
